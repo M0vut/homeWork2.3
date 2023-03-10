@@ -1,10 +1,10 @@
 public class ServiceStation {
     //родительский класс связан с другими классами по цепочке здесь как мне кажется идет в силу позднее связывание
 
-    public void check(Bicycle bicycle) {
-            for (int i = 0; i < bicycle.getWheelsCount(); i++) {
+    public void check(Transport transport) {
+            for (int i = 0; i < transport.getWheelsCount(); i++) {
             }
-                bicycle.updateTyre();
+                transport.updateTyre();
             }
 
         }
